@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+* {
+	box-sizing: border-box;
+	border: 0;
+	margin:  0;
+	padding: 0;
+	overflow-x: auto;
+	/* default font, override for 16x2 */
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 8pt;
+}
+
+body {background: #282017;color: #fff;}
+
+#topper {background: #212121; height: 8em;width: 100vw;padding-left: 2em;}
+#md {font-family: 'Monoton', cursive;font-size: 42pt;}
+
+#programmer {background: #212121; height: 44em;width: 100vw;padding: 2em;}
+#programmer * {position: absolute;}
+
+/* PROGRAMMER BUTTONS */
+.b {height: 2.25em;width: 6em;background: #08dbbb;}
+.bt {color: #000;line-height: 2.25em;right: 0.3em;}
+.bn {color: #fff;line-height: 2.25em;left: 0.3em;}
+
+.et {color: #6a4ac9;}
+.el {background: #6a4ac9;height: 0.1em;}
+.ft {color: #aa6c3d;}
+.fl {background: #aa6c3d;height: 0.1em;}
+
+/* DATA ENTRY */
+#desl {background: #fff; height: 0.1em; margin-left: 0; width: 23.5em;}
+.bar {line-height: 2.25em; right: 0.3em;}
+#sc {background: #14100b; width: 7em; height: 13.5em; margin-top: 5.25em;}
+#sh {background: #282017; height: 2em; width: 6.5em; margin-left: 0.25em; cursor: pointer;}
+#sd {background: #fff; height: 0.3em; width:6.5em; top: 0.85em;}
+.vd {margin-left: 7.5em; height: 0.1em; background: #fff; width: 1.5em;}
+#vt10 {margin-top: 6.00em;}
+#vtf {margin-top: 6.75em;}
+#vte {margin-top: 7.50em;}
+#vtd {margin-top: 8.25em;}
+#vtc {margin-top: 9.00em;}
+#vtb {margin-top: 9.75em;}
+#vta {margin-top: 10.50em;}
+#vt9 {margin-top: 11.25em;}
+#vt8 {margin-top: 12.00em;}
+#vt7 {margin-top: 12.75em;}
+#vt6 {margin-top: 13.50em;}
+#vt5 {margin-top: 14.25em;}
+#vt4 {margin-top: 15.00em;}
+#vt3 {margin-top: 15.75em;}
+#vt2 {margin-top: 16.50em;}
+#vt1 {margin-top: 17.25em;}
+#vt0 {margin-top: 18.00em;}
+
+/* Increment BUTTONS */
+.ib1t {margin-left: 10.4em;}
+.ib2t {margin-left: 17.4em}
+
+/* MONITOR */
+#mb {
+	margin-top: 23em;
+	border-radius: 0.5em;
+	height: 18em;
+	width: 52em;
+	background: #000;
+}
+
+#m {
+	
+}
+
+/* BUTTON COLUMNS */
+.bx1 {margin-left: 10.3em;}
+.bx2 {margin-left: 17.3em;}
+.bx3 {margin-left: 24.3em;}
+.bx4 {margin-left: 31.3em;}
+.bx5 {margin-left: 38.3em;}
+.bx6 {margin-left: 45.3em;}
+.bx7 {margin-left: 52.3em;}
+.bx8 {margin-left: 59em;}
+.bx9 {margin-left: 66em;}
+.bxa {margin-left: 73em;}
+.bxb {margin-left: 80em;}
+.bxc {margin-left: 87em;}
+.bxd {margin-left: 94em;}
+.bxe {margin-left: 101em;}
+.bxf {margin-left: 108em;}
+
+/* BUTTON ROWS */
+.by1 {margin-top: 6em;}
+.by2 {margin-top: 16em;}
+.by3 {margin-top: 26em;}
+.by4 {margin-top: 36em;}
+.ml {background: #fff; height: 0.1em; margin-left: 31.3em; width: 13em;}
+
+/* MODESETTING BLOCK (ROW 1) */
+#b3 {background: #ff4444;}
+#b6 {background: #6a4ac9;}
+#mt1 {margin-left: 24.5em;}
+#ms1 {margin-left: 31.5em;}
+#mt2 {margin-left: 31.5em;}
+#mt3 {margin-left: 38.5em;}
+#mt4 {margin-left: 45.5em;}
+
+/* MODESETTING BLOCK (ROW 2) */
+#b7 {background: #6a4ac9;}
+#ba {background: #aa6c3d;}
+#mt5 {margin-left: 24.5em;}
+#ms2 {margin-left: 31.5em;}
+#mt6 {margin-left: 31.5em;}
+#mt7 {margin-left: 38.5em;}
+#mt8 {margin-left: 45.5em;}
+
+/* PLAY LABEL */
+#pl {background: #fff;color: #000;height: 1.5em;width: 13em;margin-top: 18.75em;margin-left: 31.3em;}
+#plt {right: 5.5em;}
+
+/* NAVIGATION TEXT COLUMNS */
+
+.ntx1 {margin-left: 59.3em;}
+.ntx2 {margin-left: 66.3em;}
+.ntx3 {margin-left: 73.3em;}
+.ntx4 {margin-left: 80.3em;}
+.ntx5 {margin-left: 87.3em;}
+.ntx6 {margin-left: 94.3em;}
+.ntx7 {margin-left: 101.3em;}
+.ntx8 {margin-left: 108.3em;}
+
+/* NAVIGATION BLOCK (ROW 1) */
+
+.esy1 {margin-top: 3.1em;}
+.ely1 {margin-top: 4.4em}
+.ety1 {margin-top: 4.5em;}
+#el1 {margin-left: 59.0em;width: 41em;}
+
+.fty1 {margin-top: 8.5em;}
+.fly1 {margin-top: 9.8em;}
+.fsy1 {margin-top: 9.9em;}
+#fl1 {margin-left: 73.0em;width: 13em;}
+#fl2 {margin-left: 87.0em;width: 20em;}
+
+/* NAVIGATION BLOCK (ROW 2) */
+.esy2 {margin-top: 13em;}
+.ely2 {margin-top: 14.4em;}
+.ety2 {margin-top: 14.5em;}
+#el2 {margin-left: 59.0em;width: 41em;}
+#el3 {margin-left: 101.0em;width: 13em;}
+
+.fty2 {margin-top: 18.5em;}
+.fly2 {margin-top: 19.9em;}
+.fsy2 {margin-top: 20em;}
+#fl3 {margin-left: 73em;width: 13em;}
+#fl4 {margin-left: 87em;width: 27em;}
+/* NAVIGATION BLOCK (ROW 3) */
+.esy3 {margin-top: 21.4em;}
+.ely3 {margin-top: 22.8em;}
+.ety3 {margin-top: 23em;}
+#el4 {margin-left: 59.0em;width: 27.0em;}
+#el5 {margin-left: 87.0em;width: 13em;}
+
+.fty3 {margin-top: 28.5em;}
+.fly3 {margin-top: 29.9em;}
+.fsy3 {margin-top: 30.1em;}
+#fl5 {margin-left: 59.0em;width: 27em;}
+#fl6 {margin-left: 87.0em;width: 27em;}
+
+/* NAVIGATION BLOCK (ROW 4) */
+.esy4 {margin-top: 31.4em;}
+.ely4 {margin-top: 32.8em;}
+.ety4 {margin-top: 33em;}
+#el6 {margin-left: 59.0em;width: 20em;}
+#el7 {margin-left: 87em;width: 13em;}
+#el8 {margin-left: 101em;width: 13em;}
+
+.fty4 {margin-top: 38.5em;}
+.fly4 {margin-top: 39.9em;}
+.fsy4 {margin-top: 40.0em;}
+#fl7 {margin-left: 59.0em; width: 27.0em;}
+
+#keybed {
+	background: #282017;
+}
