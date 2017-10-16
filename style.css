@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fontlibrary.org/face/segment7');
+@import url('https://fontlibrary.org/face/pixelated');
+
 
 * {
 	box-sizing: border-box;
@@ -12,7 +15,7 @@
 	font-size: 8pt;
 }
 
-body {background: #282017;color: #fff;}
+body {background: #14100b; color: #fff;}
 
 #topper {background: #212121; height: 8em;width: 100vw;padding-left: 2em;}
 #md {font-family: 'Monoton', cursive;font-size: 42pt;}
@@ -68,8 +71,28 @@ body {background: #282017;color: #fff;}
 	background: #000;
 }
 
-#m {
-	
+#mn {
+	color: #f72007;
+	font-size: 32pt;
+	font-family: 'Segment7Standard';
+	font-weight: normal;
+	font-style: italic;
+	top: 1.75em;
+	left: 0.25em;
+}
+
+#mm {
+	background: #bada55;
+	top: 0.6em;
+	left: 4em;
+	height: 9em;
+	width: 25em;
+	font-family: 'SFPixelateRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	padding: 0.5em;
+	color: #49561e;
 }
 
 /* BUTTON COLUMNS */
@@ -181,16 +204,12 @@ body {background: #282017;color: #fff;}
 #fl7 {margin-left: 59.0em; width: 27.0em;}
 
 /* KEYBED */
-#keybed {
-	background: #282017;
-}
 
-/* wheel controller panel, coloring is temporary. */
+/* WARP CONTROLLER PANEL */
 #wcp {
 	height: 22em;
 	width: 16em;
 	background: #282017;
-	border-bottom: 0.2em solid #19140e;
 	display: inline-block;
 	border-bottom-right-radius: 0.25em;
 }
@@ -198,12 +217,49 @@ body {background: #282017;color: #fff;}
 #wcs {
 	height: 14.50em;
 	width: 14.50em;
-	background: #3a2e20;
-	border: 0.1em solid #19140e;
-	border-radius: 0.2em;
+	background: #000;
+	border-radius: 0.4em;
 	margin-top: 0.75em;
 	margin-left: 0.75em;
+	cursor: crosshair;
 }
+
+.wci {
+	position: absolute;
+	height: 0.3em;
+	width: 0.3em;
+	border-radius: 100%;
+	background: #fff;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.ix0 {left: 1.5em;}
+.ix1 {left: 2.75em;}
+.ix2 {left: 4.00em;}
+.ix3 {left: 5.25em;}
+.ix4 {left: 6.50em;}
+.ix5 {left: 7.75em;}
+.ix6 {left: 9em;}
+.ix7 {left: 10.25em;}
+.ix8 {left: 11.50em;}
+.ix9 {left: 12.75em;}
+.ixa {left: 14em;}
+
+.iy0 {top: 66em;}
+.iy1 {top: 64.75em;}
+.iy2 {top: 63.50em;}
+.iy3 {top: 62.25em;}
+.iy4 {top: 61.00em;}
+.iy5 {top: 59.75em;}
+.iy6 {top: 58.50em;}
+.iy7 {top: 57.25em;}
+.iy8 {top: 56em;}
+.iy9 {top: 54.75em;}
+.iya {top: 53.50em;}
+
+
+/* KEYBOARD */
 
 .k {
 	cursor: pointer;
@@ -227,8 +283,8 @@ body {background: #282017;color: #fff;}
 	width: 3em;
 	background: #000;
 	display: inline-block;
-	border-bottom-left-radius: 0.25em;
-	border-bottom-right-radius: 0.25em;
+	border-bottom-left-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
 }
 
 .s:hover {background: #212121;}
