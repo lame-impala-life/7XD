@@ -21,7 +21,7 @@ body {background: #282017;color: #fff;}
 #programmer * {position: absolute;}
 
 /* PROGRAMMER BUTTONS */
-.b {height: 2.25em;width: 6em;background: #08dbbb;}
+.b {height: 2.25em;width: 6em;background: #08dbbb;cursor: pointer;}
 .bt {color: #000;line-height: 2.25em;right: 0.3em;}
 .bn {color: #fff;line-height: 2.25em;left: 0.3em;}
 
@@ -61,7 +61,7 @@ body {background: #282017;color: #fff;}
 
 /* MONITOR */
 #mb {
-	margin-top: 23em;
+	margin-top: 22em;
 	border-radius: 0.5em;
 	height: 18em;
 	width: 52em;
@@ -180,6 +180,73 @@ body {background: #282017;color: #fff;}
 .fsy4 {margin-top: 40.0em;}
 #fl7 {margin-left: 59.0em; width: 27.0em;}
 
+/* KEYBED */
 #keybed {
 	background: #282017;
 }
+
+/* wheel controller panel, coloring is temporary. */
+#wcp {
+	height: 22em;
+	width: 16em;
+	background: #282017;
+	border-bottom: 0.2em solid #19140e;
+	display: inline-block;
+	border-bottom-right-radius: 0.25em;
+}
+
+#wcs {
+	height: 14.50em;
+	width: 14.50em;
+	background: #3a2e20;
+	border: 0.1em solid #19140e;
+	border-radius: 0.2em;
+	margin-top: 0.75em;
+	margin-left: 0.75em;
+}
+
+.k {
+	cursor: pointer;
+}
+
+.n {
+	height: 22em;
+	width: 4.5em;
+	background: #fff;
+	display: inline-block;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+.n:hover {background: #cccccc;}
+
+.s {
+	position: absolute;
+	z-index: 1;
+	height: 14em;
+	width: 3em;
+	background: #000;
+	display: inline-block;
+	border-bottom-left-radius: 0.25em;
+	border-bottom-right-radius: 0.25em;
+}
+
+.s:hover {background: #212121;}
+
+#c2s {left: 19.3em;}
+#d2s {left: 24.3em;}
+#f2s {left: 33.5em;}
+#g2s {left: 38.5em;}
+#a2s {left: 43.5em;}
+
+#c3s {left: 52.3em;}
+#d3s {left: 57.3em;}
+#f3s {left: 66.5em;}
+#g3s {left: 71.5em;}
+#a3s {left: 76.5em;}
+
+#c4s {left: 85.3em;}
+#d4s {left: 90.3em;}
+#f4s {left: 99.5em;}
+#g4s {left: 104.5em;}
+#a4s {left: 109.5em;}
