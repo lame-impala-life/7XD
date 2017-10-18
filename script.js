@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	alert("HI JOHNNY!");
+	// NOT YET
 });

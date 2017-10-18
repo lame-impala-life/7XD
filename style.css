@@ -3,7 +3,7 @@
 @import url('https://fontlibrary.org/face/segment7');
 @import url('https://fontlibrary.org/face/pixelated');
 
-
+/* BASE RULES */
 * {
 	box-sizing: border-box;
 	border: 0;
@@ -14,20 +14,47 @@
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 8pt;
 }
-
-body {background: #14100b; color: #fff;}
-
-#topper {background: #212121; height: 8em;width: 100vw;padding-left: 2em;}
-#md {font-family: 'Monoton', cursive;font-size: 42pt;}
-
-#programmer {background: #212121; height: 44em;width: 100vw;padding: 2em;}
+body {
+	background: #14100b;
+	color: #fff;
+}
+#topper {
+	background: #212121;
+	height: 8em;
+	width: 100vw;
+	padding-left: 2em;
+}
+#md {
+	font-family: 'Monoton', cursive;
+	font-size: 42pt;
+}
+#programmer {
+	background: #212121;
+	height: 44em;
+	width: 100vw;
+	padding: 2em;
+}
 #programmer * {position: absolute;}
 
 /* PROGRAMMER BUTTONS */
-.b {height: 2.25em;width: 6em;background: #08dbbb;cursor: pointer;}
-.bt {color: #000;line-height: 2.25em;right: 0.3em;}
-.bn {color: #fff;line-height: 2.25em;left: 0.3em;}
+.b {
+	height: 2.25em;
+	width: 6em;
+	background: #08dbbb;
+	cursor: pointer;
+}
+.bt {
+	color: #000;
+	line-height: 2.25em;
+	right: 0.3em;
+}
+.bn {
+	color: #fff;
+	line-height: 2.25em;
+	left: 0.3em;
+}
 
+/* PROGRAMMER TEXT */
 .et {color: #6a4ac9;}
 .el {background: #6a4ac9;height: 0.1em;}
 .ft {color: #aa6c3d;}
@@ -58,7 +85,7 @@ body {background: #14100b; color: #fff;}
 #vt1 {margin-top: 17.25em;}
 #vt0 {margin-top: 18.00em;}
 
-/* Increment BUTTONS */
+/* INCREMENT BUTTONS */
 .ib1t {margin-left: 10.4em;}
 .ib2t {margin-left: 17.4em}
 
