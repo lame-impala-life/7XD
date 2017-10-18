@@ -1,1 +1,3 @@
-// NEED JQUERY
+$(document).ready(function() {
+	alert("HI JOHNNY!");
+});
