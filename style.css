@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fontlibrary.org/face/segment7');
-@import url('https://fontlibrary.org/face/pixelated');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
 /* BASE RULES */
 * {
@@ -114,13 +114,16 @@ body {
 	left: 4em;
 	height: 9em;
 	width: 25em;
-	font-family: 'SFPixelateRegular';
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'VT323', monospace;
 	font-size: 14pt;
 	padding: 0.5em;
 	color: #49561e;
 	overflow-y: hidden;
+}
+
+#mm span {
+	font-family: 'VT323', monospace;
+	font-size: 14pt;
 }
 
 /* BUTTON COLUMNS */

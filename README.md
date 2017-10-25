@@ -6,4 +6,4 @@ Made possible especially by:
 * Didact Gothic
 * Monoton
 * Segment7
-* Pixelated
+* VT323
