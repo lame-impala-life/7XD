@@ -1,10 +1,10 @@
 $(document).ready(function() {
+  // PROGRAMMING MODE (0=MEMORY,1=EDIT,2=FUNCTION)
+  var pm = 0;
+
 
   // CURRENT PARAMETER
   var cp;
-
-  // CURRENT PARAMETER SIEVE (0=NUMBER,1=TEXT)
-  var cps;
 
   // FRAMEBUFFER UPDATE
   function fbu (fb) {
@@ -44,7 +44,35 @@ $(document).ready(function() {
   var mpi = 1; //INTERNAL
   var mpc = 1; //CARTRIDGE
 
-  // BUTTON FUNCTION ASSIGNMENTS
+  // BUTTON MEMORY FUNCTIONS
+  var bmf = {
+
+  }
+
+  // BUTTON EDIT FUNCTIONS
+  var bef = {
+
+    // OPERATOR 1 TOGGLE
+    bb: {},
+    // OPERATOR 2 TOGGLE
+    bc: {},
+    // OPERATOR 3 TOGGLE
+    bd: {},
+    // OPERATOR 4 TOGGLE
+    be: {},
+    // OPERATOR 5 TOGGLE
+    bf: {},
+    // OPERATOR 6 TOGGLE
+    b10: {},
+
+  }
+
+  // YOUR FAVORITE, THE BUTTON FUNCTION FUNCTIONS
+  var bff = {
+
+  }
+
+  // OLD BUTTON FUNCTION ASSIGNMENT, WILL REFER TO COMMENTS FOR NEW STRUCTURES THEN REMOVE IT
   var bf = {
     // DECREASE BUTTON
     b1 : function () {cp -= 1;fbdu(cp,cps);},
@@ -146,6 +174,7 @@ $(document).ready(function() {
   }
 
   // INTERNAL MEMORY
-  // Parse JSON in internal memory directory
+  bank="/sysjson/clavs";
+  // JSON.parse()
 
 });
