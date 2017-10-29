@@ -33,7 +33,7 @@ $(document).ready(function() {
     "/sysjson/", // Et (29) dedicated to Kevin Spacey the man and Australian band
     "/sysjson/", // Eu (30) free for EU passports and dedicated to our friend the Lonrad 05D
     "/sysjson/", // Ev (31) if you drank POG you are in the DXinner Party
-    "/sysjson/", // Ew (32) good for those nasty samples for sick beats
+    "/sysjson/" // Ew (32) good for those nasty samples for sick beats
   ];
   // JSON.parse()
 
