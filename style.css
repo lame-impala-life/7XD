@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fontlibrary.org/face/segment7');
-@import url('https://fonts.googleapis.com/css?family=VT323');
+@font-face {
+    font-family:'5x8 LCD';
+    src: url('fonts/5x8_lcd_hd44780u_a02.eot') format('eot'),url('fonts/5x8_lcd_hd44780u_a02.woff') format('woff'),url('fonts/5x8_lcd_hd44780u_a02.ttf') format('truetype'),url('fonts/5x8_lcd_hd44780u_a02.svg#5x8-LCD-HD44780U-A02') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
 
 /* BASE RULES */
 * {
@@ -10,7 +15,6 @@
 	margin:  0;
 	padding: 0;
 	overflow-x: auto;
-	/* default font, override for 16x2 */
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 8pt;
 }
@@ -19,7 +23,8 @@ body {
 	color: #fff;
 }
 #topper {
-	background: #212121;
+	background: #282017;
+	border-bottom: 0.2em solid #14100b;
 	height: 8em;
 	width: 100vw;
 	padding-left: 2em;
@@ -35,7 +40,6 @@ body {
 	padding: 2em;
 }
 #programmer * {position: absolute;}
-
 /* PROGRAMMER BUTTONS */
 .b {
 	height: 2.25em;
@@ -53,13 +57,11 @@ body {
 	line-height: 2.25em;
 	left: 0.3em;
 }
-
 /* PROGRAMMER TEXT */
 .et {color: #6a4ac9;}
 .el {background: #6a4ac9;height: 0.1em;}
 .ft {color: #aa6c3d;}
 .fl {background: #aa6c3d;height: 0.1em;}
-
 /* DATA ENTRY */
 #desl {background: #fff; height: 0.1em; margin-left: 0; width: 23.5em;}
 .bar {line-height: 2.25em; right: 0.3em;}
@@ -84,11 +86,9 @@ body {
 #vt2 {margin-top: 16.50em;}
 #vt1 {margin-top: 17.25em;}
 #vt0 {margin-top: 18.00em;}
-
 /* INCREMENT BUTTONS */
 .ib1t {margin-left: 10.4em;}
 .ib2t {margin-left: 17.4em}
-
 /* MONITOR */
 #mb {
 	margin-top: 22em;
@@ -97,35 +97,31 @@ body {
 	width: 52em;
 	background: #000;
 }
-
 #mn {
 	color: #f72007;
 	font-size: 32pt;
 	font-family: 'Segment7Standard';
 	font-weight: normal;
-	font-style: italic;
+	/*font-style: italic;*/
 	top: 1.75em;
 	left: 0.25em;
 }
-
 #mm {
 	background: #bada55;
 	top: 0.6em;
-	left: 4em;
-	height: 9em;
-	width: 25em;
-	font-family: 'VT323', monospace;
-	font-size: 14pt;
+	left: 5.75em;
+	height: 13em;
+	width: 35em;
+	font-family: '5x8 LCD', monospace;
+	font-size: 10pt;
 	padding: 0.5em;
 	color: #49561e;
 	overflow-y: hidden;
 }
-
 #mm span {
-	font-family: 'VT323', monospace;
-	font-size: 14pt;
+	font-family: '5x8 LCD', monospace;
+	font-size: 10pt;
 }
-
 /* BUTTON COLUMNS */
 .bx1 {margin-left: 10.3em;}
 .bx2 {margin-left: 17.3em;}
@@ -142,14 +138,12 @@ body {
 .bxd {margin-left: 94em;}
 .bxe {margin-left: 101em;}
 .bxf {margin-left: 108em;}
-
 /* BUTTON ROWS */
 .by1 {margin-top: 6em;}
 .by2 {margin-top: 16em;}
 .by3 {margin-top: 26em;}
 .by4 {margin-top: 36em;}
 .ml {background: #fff; height: 0.1em; margin-left: 31.3em; width: 13em;}
-
 /* MODESETTING BLOCK (ROW 1) */
 #b3 {background: #ff4444;}
 #b6 {background: #6a4ac9;}
@@ -158,7 +152,6 @@ body {
 #mt2 {margin-left: 31.5em;}
 #mt3 {margin-left: 38.5em;}
 #mt4 {margin-left: 45.5em;}
-
 /* MODESETTING BLOCK (ROW 2) */
 #b7 {background: #6a4ac9;}
 #ba {background: #aa6c3d;}
@@ -167,13 +160,10 @@ body {
 #mt6 {margin-left: 31.5em;}
 #mt7 {margin-left: 38.5em;}
 #mt8 {margin-left: 45.5em;}
-
 /* PLAY LABEL */
 #pl {background: #fff;color: #000;height: 1.5em;width: 13em;margin-top: 18.75em;margin-left: 31.3em;}
 #plt {right: 5.5em;}
-
 /* NAVIGATION TEXT COLUMNS */
-
 .ntx1 {margin-left: 59.3em;}
 .ntx2 {margin-left: 66.3em;}
 .ntx3 {margin-left: 73.3em;}
@@ -182,27 +172,22 @@ body {
 .ntx6 {margin-left: 94.3em;}
 .ntx7 {margin-left: 101.3em;}
 .ntx8 {margin-left: 108.3em;}
-
 /* NAVIGATION BLOCK (ROW 1) */
-
 .esy1 {margin-top: 3.1em;}
 .ely1 {margin-top: 4.4em}
 .ety1 {margin-top: 4.5em;}
 #el1 {margin-left: 59.0em;width: 41em;}
-
 .fty1 {margin-top: 8.5em;}
 .fly1 {margin-top: 9.8em;}
 .fsy1 {margin-top: 9.9em;}
 #fl1 {margin-left: 73.0em;width: 13em;}
 #fl2 {margin-left: 87.0em;width: 20em;}
-
 /* NAVIGATION BLOCK (ROW 2) */
 .esy2 {margin-top: 13em;}
 .ely2 {margin-top: 14.4em;}
 .ety2 {margin-top: 14.5em;}
 #el2 {margin-left: 59.0em;width: 41em;}
 #el3 {margin-left: 101.0em;width: 13em;}
-
 .fty2 {margin-top: 18.5em;}
 .fly2 {margin-top: 19.9em;}
 .fsy2 {margin-top: 20em;}
@@ -214,13 +199,11 @@ body {
 .ety3 {margin-top: 23em;}
 #el4 {margin-left: 59.0em;width: 27.0em;}
 #el5 {margin-left: 87.0em;width: 13em;}
-
 .fty3 {margin-top: 28.5em;}
 .fly3 {margin-top: 29.9em;}
 .fsy3 {margin-top: 30.1em;}
 #fl5 {margin-left: 59.0em;width: 27em;}
 #fl6 {margin-left: 87.0em;width: 27em;}
-
 /* NAVIGATION BLOCK (ROW 4) */
 .esy4 {margin-top: 31.4em;}
 .ely4 {margin-top: 32.8em;}
@@ -228,12 +211,10 @@ body {
 #el6 {margin-left: 59.0em;width: 20em;}
 #el7 {margin-left: 87em;width: 13em;}
 #el8 {margin-left: 101em;width: 13em;}
-
 .fty4 {margin-top: 38.5em;}
 .fly4 {margin-top: 39.9em;}
 .fsy4 {margin-top: 40.0em;}
 #fl7 {margin-left: 59.0em; width: 27.0em;}
-
 /* KEYBED */
 
 /* WARP CONTROLLER PANEL */
@@ -291,7 +272,6 @@ body {
 
 
 /* KEYBOARD */
-
 .k {
 	cursor: pointer;
 }
